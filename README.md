@@ -8,10 +8,12 @@ Homebrew formulae for personal Rust projects. Formulas are updated automatically
 # First-time install (auto-taps)
 brew install camjac251/tap/tool-gates
 brew install camjac251/tap/claude-statusline
+brew install camjac251/tap/wsl-clip-bridge    # Linux/WSL only
 
 # After tapping, upgrades work normally
 brew upgrade tool-gates
 brew upgrade claude-statusline
+brew upgrade wsl-clip-bridge
 ```
 
 ## Formulas
@@ -20,6 +22,7 @@ brew upgrade claude-statusline
 |---|---|---|
 | [tool-gates](https://github.com/camjac251/tool-gates) | Intelligent tool permission gates for AI coding assistants | macOS, Linux (arm64, x86_64) |
 | [claude-statusline](https://github.com/camjac251/rust-statusline) | Status line for Claude Code terminal sessions | macOS, Linux (arm64, x86_64) |
+| [wsl-clip-bridge](https://github.com/camjac251/wsl-clip-bridge) | WSL clipboard bridge - drop-in xclip replacement | Linux (arm64, x86_64) |
 
 ## How it works
 
