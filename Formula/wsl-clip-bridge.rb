@@ -1,18 +1,18 @@
 class WslClipBridge < Formula
   desc "WSL clipboard bridge - drop-in xclip replacement using Windows clipboard"
   homepage "https://github.com/camjac251/wsl-clip-bridge"
-  version "1.1.2"
+  version "1.1.3"
   license "MIT"
 
   depends_on :linux
 
   on_arm do
     url "https://github.com/camjac251/wsl-clip-bridge/releases/download/v#{version}/xclip-linux-arm64"
-    sha256 "5baac5b0992b07e5a91e64cf8aecda7a29267252ff6981e292600a718ffed222"
+    sha256 "43b5e651053b036215545b212bc137b8891914ff72a4ae1db9dcc547a51af614"
   end
   on_intel do
     url "https://github.com/camjac251/wsl-clip-bridge/releases/download/v#{version}/xclip-linux-x86_64"
-    sha256 "80ddf0fb36e482c5f5de22739421181df675888d8cb1c0b547fbdae9a8b4de13"
+    sha256 "d6734d8dea2159b4be15751597fef42999920b1768e684f8c92af49e67008e1a"
   end
 
   conflicts_with "xclip", because: "both install an `xclip` binary"
