@@ -1,28 +1,28 @@
 class ClaudeStatusline < Formula
   desc "Rust-powered status line for Claude Code terminal sessions"
   homepage "https://github.com/camjac251/rust-statusline"
-  version "2.7.0"
+  version "2.8.0"
   license :cannot_represent
 
   on_macos do
     on_arm do
       url "https://github.com/camjac251/rust-statusline/releases/download/v#{version}/claude_statusline-macos-arm64"
-      sha256 "28189504da1a5e5832211c45fada69204430cc2f324640a5d4a3343a7b52fe7a"
+      sha256 "598ed87a7ff0c7daab608367325db7f22769f80e6b207c0506a7a6f53b9848a3"
     end
     on_intel do
       url "https://github.com/camjac251/rust-statusline/releases/download/v#{version}/claude_statusline-macos-x86_64"
-      sha256 "dd1e01b19274886301d64ab83dbf9036535f3e7446e793fa6b5f9019de3a28e9"
+      sha256 "76aa1490964f62d9590942a1bed61cb357c0b77366fd1ae64f7af6df8d05a949"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/camjac251/rust-statusline/releases/download/v#{version}/claude_statusline-linux-arm64"
-      sha256 "1f8fdfac4d92d1a42326e36b5fa945a7c3381c2e77284e7843ef4d26c8d467a5"
+      sha256 "c6639bb0de82ce5229acc61971311492839176a4b3fca288aeb8ac78b8c4a0dc"
     end
     on_intel do
       url "https://github.com/camjac251/rust-statusline/releases/download/v#{version}/claude_statusline-linux-x86_64"
-      sha256 "ebc2c1bf20a1479d76bef3b88c2b7798b25195a95b75f589d1c46ccf025a7235"
+      sha256 "f6904fb7eeb3d67d31565b216bc8897956d7f506d46287c45eaad93b546ae6cd"
     end
   end
 
