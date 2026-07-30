@@ -1,28 +1,28 @@
 class ToolGates < Formula
   desc "Intelligent tool permission gates for AI coding assistants"
   homepage "https://github.com/camjac251/tool-gates"
-  version "1.32.4"
+  version "1.33.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/camjac251/tool-gates/releases/download/v#{version}/tool-gates-macos-arm64"
-      sha256 "399fb1c049dd00e021fe6cfe81f29d2852249eb05b7201d3dbc26033847b1a87"
+      sha256 "241ffd10ddb0afd01a5d53bb37834eb25a4712cbcf18831e0a9b3202f2613127"
     end
     on_intel do
       url "https://github.com/camjac251/tool-gates/releases/download/v#{version}/tool-gates-macos-x86_64"
-      sha256 "0e3a929b799164ffda3b51320b9fae6687f0820199d2937ac15271835c2330fb"
+      sha256 "1f9ad64969209e76314f50cb43e08bc69eb10d9d186c1f4093c03543fb74b89c"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/camjac251/tool-gates/releases/download/v#{version}/tool-gates-linux-arm64"
-      sha256 "e443f2ac2b19793699200deccc61d231341b50ae55dff5b9c7d5dcb42a799b79"
+      sha256 "434b1a0505d41e4d48a0f88c0b6b15dfdd2f10b8aed52d18adacccf977ba580a"
     end
     on_intel do
       url "https://github.com/camjac251/tool-gates/releases/download/v#{version}/tool-gates-linux-x86_64"
-      sha256 "e2d1510845a0c7666536be37af4cadf0ae2f70bac52806d49113ac788d9a042d"
+      sha256 "a786050a580aafbb0be72b5a999633d8083753dab627545898a24136215e60b5"
     end
   end
 
